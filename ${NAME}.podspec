@@ -22,6 +22,6 @@ TODO: Add long description of the pod here.
   s.platform = :ios, '13.0'
   s.ios.deployment_target = '13.0'
   s.swift_versions = '5.7'
-  s.source_files = 'Sources/${NAME}/*'
+  s.source_files = 'Sources/${NAME}/**/*'
   s.frameworks = 'UIKit'
 end
