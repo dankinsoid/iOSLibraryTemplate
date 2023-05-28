@@ -18,15 +18,8 @@ This repository provides
 
  
 ## Installation
-1.  [CocoaPods](https://cocoapods.org)
 
-Add the following line to your Podfile:
-```ruby
-pod '${NAME}'
-```
-and run `pod update` from the podfile directory first.
-
-2. [Swift Package Manager](https://github.com/apple/swift-package-manager)
+1. [Swift Package Manager](https://github.com/apple/swift-package-manager)
 
 Create a `Package.swift` file.
 ```swift
@@ -46,6 +39,14 @@ let package = Package(
 ```ruby
 $ swift build
 ```
+
+2.  [CocoaPods](https://cocoapods.org)
+
+Add the following line to your Podfile:
+```ruby
+pod '${NAME}'
+```
+and run `pod update` from the podfile directory first.
 
 ## Author
 
